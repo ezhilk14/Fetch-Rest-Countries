@@ -52,7 +52,7 @@ fetch("https://restcountries.com/v3.1/all").then(function(data){
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${country.name.common}&appid=6e1752da63232595e530480afe988233`)
         .then(function(resp) { return resp.json() })
         .then(function(climate){
-            alert(`The temperature of ${country.name.common} is ${climate.main.temp}`);
+            alert(`The temperature of ${country.name.common} is ${climate.main.temp} Fahrenheit`);
           
         }).catch(function (error){
           alert("weather report not found");
