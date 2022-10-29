@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.card-design{
+    background:darkcyan;
+}
+
+body{
+  background-color: beige !important;
+}
